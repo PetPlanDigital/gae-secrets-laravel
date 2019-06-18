@@ -1,5 +1,5 @@
 {
-  "name": "bob-hennessey/gae-secrets-laravel",
+  "name": "petplan/laravel-gae-secrets",
   "description": "A lightweight provider to read secrets from GCP Datastore in App Engine. Based heavily on tommerrett/laravel-GAE-secret-manager",
   "require": {
       "php": "^7.2",
