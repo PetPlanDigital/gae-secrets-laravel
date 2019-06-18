@@ -1,0 +1,9 @@
+{
+  "name": "bob-hennessey/gae-secrets-laravel",
+  "description": "A lightweight provider to read secrets from GCP Datastore in App Engine. Based heavily on tommerrett/laravel-GAE-secret-manager",
+  "require": {
+      "php": "^7.2",
+      "google/cloud-datastore": "^1.9",
+      "illuminate/cache": "5.8.*"
+  }
+}
