@@ -102,7 +102,9 @@ class GAESecretsServiceProvider extends ServiceProvider
 
     protected function getVariables()
     {
-        $datastore = new DatastoreClient();
+        $datastore = new DatastoreClient([
+            'namespaceId' => config('GAESecrets.namespace')
+        ]);
         $query = $datastore->query();
         $query->kind('Parameter');
 
